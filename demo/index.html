@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--include Jquery-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <!--including font awesome for demo-->
+        <link rel="stylesheet" href="assets/font-awesome-4.7.0/css/font-awesome.min.css">
+        <!--include animate css for better UX-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+        <!--custom css-->
+        <link rel="stylesheet" href="assets/css/myCss.css">
+    </head>
+    <body>
+        <h1>Multiple like button.</h1>
+        <div id="demo">
+            Try this cooool Like button&nbsp;
+            <i class="fa hover_me like_answer fa-heart" aria-hidden="true">
+                <span class="hover_more">
+                    <a class="more_likes" data-current="fa-heart" data-reaction="fa-heart" href="#">
+                        <i class="fa fa-heart" aria-hidden="true"></i>
+                    </a>
+                    <a class="more_likes" data-current="fa-heart" data-reaction="fa-thumbs-up" href="#">
+                        <i class="fa fa-thumbs-up" aria-hidden="true"></i>
+                    </a>
+                    <a class="more_likes" data-current="fa-heart" data-reaction="fa-smile-o" href="#">
+                        <i class="fa fa-smile-o" aria-hidden="true"></i>
+                    </a>
+                    <a class="more_likes" data-current="fa-heart" data-reaction="fa-question-circle" href="#">
+                        <i class="fa fa-question-circle" aria-hidden="true"></i>
+                    </a>
+                    <a class="more_likes" data-current="fa-heart" data-reaction="fa-meh-o" href="#">
+                        <i class="fa fa-meh-o" aria-hidden="true"></i>
+                    </a>
+                    <a class="more_likes" data-current="fa-heart" data-reaction="fa-thumbs-down" href="#">
+                        <i class="fa fa-thumbs-down" aria-hidden="true"></i>
+                    </a>
+                </span>
+            </i>
+        </div>
+
+        <div id="docu">
+            <h3>How to ...</h3>
+            <ul>
+                <li>
+                    Add tootip. <a target="_blank" href = "http://www.w3schools.com/css/css_tooltip.asp">Reference here</a>
+                </li>
+                <li>
+                    Now replace the html inside span tag with whatever you want.
+                </li>
+                <li>
+                    Use data tag to store current icon name and the wanted icon name. I used <a target="_blank" href="http://fontawesome.io/">Font awesome</a> fonts here.
+                </li>
+                <li>
+                    Now using click function do the magic.
+                </li>
+                <li>
+                    Add some style using <a target="_blank" href="https://daneden.github.io/animate.css/">animate.css</a> and boom!!
+                </li>
+            </ul>
+        </div>
+
+        <!--custom JS-->
+        <script src="assets/js/myJs.js"></script>
+    </body>
+</html>

@@ -1,0 +1,66 @@
+body{
+    background: teal;
+}
+div{
+    font-family: monospace;
+    color: white;
+}
+h1{
+    text-align: center;
+    color: white;
+    font-family: monospace;
+}
+#demo{
+    margin: 25vh auto 0px;
+    width: 250px;
+    text-align: center;
+}
+#docu{
+    margin: 20vh auto 0px;
+    max-width: 400px;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+.fa{
+    color: white !important;
+}
+.more_likes{
+    color: white;
+    margin: 0px 5px;
+}
+
+.hover_me {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+/* hover text */
+.hover_me .hover_more {
+    visibility: hidden;
+    width: 200px;
+    background-color: #656363;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+
+    /* Position the hover text - see examples below! */
+    position: absolute;
+    z-index: 1;
+
+    bottom: 100%;
+    left: 50%; 
+    margin-left: -100px;
+    margin-bottom: 1px;
+
+    -webkit-transition: visibility 2s; /* Safari 3.1 to 6.0 */
+    transition: visibility 2s;
+}
+
+/* Show the hover text when you mouse over the hover container */
+.hover_me:hover .hover_more {
+    visibility: visible;
+}
